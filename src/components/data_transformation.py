@@ -21,7 +21,7 @@ class DataTransformation:
     def __init__(self):
         self.data_transformation_config = DataTransformationConfig()
     
-    def get_data_transformer_object(slef):
+    def get_data_transformer_object(self):
         try:
             numerical_features = ["writing_score", "reading_score"]
             categorical_features = [
